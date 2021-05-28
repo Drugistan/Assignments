@@ -9,12 +9,10 @@ class FindPoint:
         if len(take_arry) == 1:
             print("{} is equilibrium point".format(take_arry[0]))
         elif len(take_arry) == 2:
-            print("{} is your array Length. Length of array must be great then 2".format(
-                len(take_arry)))
+            print("{} is your array Length. Length of array must be great then 2".format(len(take_arry)))
         elif len(take_arry) > 2:
             if self.equilibriumPoint(self.take_array) == -1:
-                print("{} | Sorry, The List of array don't have equilibriumPoint".format(
-                    self.equilibriumPoint(self.take_array)))
+                print("{} | Sorry, The List of array don't have equilibriumPoint".format(self.equilibriumPoint(self.take_array)))
             else:
                 print("{} is  equilibriumPoint".format(
                     self.equilibriumPoint(self.take_array)))
